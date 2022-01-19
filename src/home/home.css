@@ -1,0 +1,32 @@
+body{
+    background-color: #1e90ff;
+}
+.container{
+    display: grid;
+}
+.title{
+    color: white;
+    background-color: #3742fa;
+    margin:2.5%;
+    padding: 1%;
+    border-bottom: 5px solid #5c63f1;
+    border-right: 5px solid #5c63f1;
+    border-radius: 15px;
+}
+.subtitle{
+    color: white;
+    margin: 3%;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    border: solid 3px #fff;
+    border-radius: 15px;
+    padding: .5%;
+}
+.links:hover{
+    color: #b2bec3;
+    border: solid 2px #b2bec3;
+    font-size: 150%;
+}
