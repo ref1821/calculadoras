@@ -15,7 +15,7 @@ function App() {
           <Route path="/syc" exact>
             <Syc></Syc> 
           </Route>
-          <Route path="/pendiente" exact>
+          <Route path="/pendiente">
             <Pendiente></Pendiente>
           </Route>
           <Route path="/">
