@@ -38,7 +38,7 @@ const Pendiente = () => {
                 <h1 className='two'>{datos.xTwo-datos.xOne}</h1>
 
                 <h1>PUNTO MEDIO</h1>
-                <h1>({(parseInt(datos.xOne)+parseInt(datos.xTwo))/2},{(parseInt(datos.yOne)+parseInt(datos.yTwo))/2})</h1>
+                <h1>({(parseInt(datos.xOne)+parseInt(datos.xTwo))/2}  ,  {(parseInt(datos.yOne)+parseInt(datos.yTwo))/2})</h1>
             </div>
         </div>
     )
