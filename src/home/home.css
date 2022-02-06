@@ -1,9 +1,7 @@
 body{
     background-color: #1e90ff;
 }
-.container{
-    display: grid;
-}
+
 .title{
     color: white;
     background-color: #3742fa;
