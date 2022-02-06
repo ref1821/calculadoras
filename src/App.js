@@ -9,17 +9,17 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/">
+          <Route path="/home" exact>
             <Home></Home>
           </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/syc">
+          <Route path="/syc" exact>
             <Syc></Syc> 
           </Route>
-          <Route path="/pendiente">
+          <Route path="/pendiente" exact>
             <Pendiente></Pendiente>
+          </Route>
+          <Route path="/">
+            <Home></Home>
           </Route>
         </Switch>
       </Router>
