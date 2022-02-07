@@ -20,8 +20,6 @@ const Pendiente = () => {
         setDatos({
             ...datos,
             [event.target.name] : event.target.value,
-            
-            pmx: datos.xOne+datos.xTwo,
         })
     }
 
@@ -39,6 +37,10 @@ const Pendiente = () => {
 
                 <h1>PUNTO MEDIO</h1>
                 <h1>({(parseInt(datos.xOne)+parseInt(datos.xTwo))/2}  ,  {(parseInt(datos.yOne)+parseInt(datos.yTwo))/2})</h1>
+
+                <h1>Ecuación de la recta</h1>
+                <h1>({datos.yTwo-datos.yOne}x)+({datos.xTwo-datos.xOne}y)+({datos.yOne*(datos.xTwo-datos.xOne)-datos.xOne*(datos.yTwo-datos.yOne)})=0</h1>
+                <h1>y={(datos.yTwo-datos.yOne)}/{(datos.xTwo-datos.xOne)}x+({datos.yOne*(datos.xTwo-datos.xOne)-datos.xOne*(datos.yTwo-datos.yOne)}/{(datos.xTwo-datos.xOne)})</h1>
             </div>
         </div>
     )
