@@ -1,0 +1,14 @@
+.inputc{
+    margin:1%;
+    background-color:#7f8fa6;
+    color:#fff;
+    padding:2%;
+    border:1px solid #7f8fa6;
+    border-bottom: 5px solid #2f3640;
+    border-right: 5px solid #2f3640;
+    border-radius: 15px;
+    font-size:100%;
+}
+#inputc{
+    padding-right: -5%;
+}

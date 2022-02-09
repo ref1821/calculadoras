@@ -11,6 +11,7 @@ const Home = () => {
             <div className="minicont">
                 <Link className="links" to='/syc' >SyC</Link>
                 <Link className="links" to='/pendiente' >Pendiente</Link>
+                <Link className="links" to='/circulo' >Circulo</Link>
             </div>
         </div>
     )
