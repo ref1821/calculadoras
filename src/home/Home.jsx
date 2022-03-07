@@ -9,9 +9,8 @@ const Home = () => {
             <h1 className="title">Calculadoras</h1>
             <h4 className="subtitle">Quinto</h4>
             <div className="minicont">
-                <Link className="links" to='/syc' >SyC</Link>
-                <Link className="links" to='/pendiente' >Pendiente</Link>
-                <Link className="links" to='/circulo' >Circulo</Link>
+                <div className='L'><Link className="links" to='/pendiente' >Recta</Link></div>
+                <div className='L'><Link className="links" to='/circulo' >Circulo</Link></div>
             </div>
         </div>
     )
