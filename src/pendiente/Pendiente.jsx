@@ -15,7 +15,7 @@ const Pendiente = () => {
         pmy:0,
         xp:0,
         yp:0,
-        pendy:0,
+        pendy:1,
         pendx:1,
     })
 
@@ -63,12 +63,10 @@ const Pendiente = () => {
             if (xp<1){
                 xp = parseInt(xp)*-1
             }
-            var pey = yp
-            var pex = xp
+        
             setDatos({
-                pendy: pey,
-                pendx: pex,
-                
+                pendy: parseInt(yp),
+                pendx: parseInt(xp),
             })
             return(
                 <div>
